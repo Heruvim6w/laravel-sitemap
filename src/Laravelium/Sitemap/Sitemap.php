@@ -17,7 +17,7 @@ namespace Laravelium\Sitemap;
 use Illuminate\Filesystem\Filesystem as Filesystem;
 use Illuminate\Contracts\View\Factory as ViewFactory;
 use Illuminate\Contracts\Cache\Repository as CacheRepository;
-use Illuminate\Contracts\Config\Repository as ConfigRepository;
+use October\Rain\Config\Repository as ConfigRepository;
 use Illuminate\Contracts\Routing\ResponseFactory as ResponseFactory;
 
 class Sitemap
